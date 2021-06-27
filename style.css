@@ -1,0 +1,244 @@
+@charset "UTF-8";
+body{
+    font-family: "Avenir";
+    margin: 0;
+    min-width: 1076px;
+}
+/* footerアイコン */
+.top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    padding: 20px;
+}
+.topa{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 20px;
+}
+/* profile */
+.gray{
+    background-color: #A7A9A6;
+    
+}
+.item-box{
+    margin: auto;
+    max-width: 1920px;
+    height: 1079px;
+    color: white;
+    display: flex;
+    justify-content:flex-end;
+}
+
+/* 名前でかい */
+.name-big{
+    font-size: 200px;
+    margin-top: 140px;
+    font-weight: bold;
+
+}
+.name-bigb{
+    font-size: 200px;
+    font-weight: bold;
+    line-height: 0.8em;
+}
+.name{
+    font-size: 50px;
+    margin-top: 10px;
+
+}
+.item-img{
+    position: static;
+    margin-top: 40px;
+}
+/* about部分 */
+
+.work-box{
+    display: flex;
+    justify-content: center;
+}
+
+.work-item{
+margin-top: 130px;
+width: 700px;
+}
+.about{
+    font-size: 50px;
+    font-weight: normal;
+}
+.skill{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: lighter;
+}
+.introduction{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.color-gray{
+    color: #303030;
+    font-size: 22px;
+}
+
+.img-pc{
+    float: right;
+    margin-left: 50px;
+    
+}
+.in{
+margin-left: 20px;
+}
+
+/* プロジェクトTwitterクローン */
+.projects-box{
+    background-color: #A7A9A6;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.leftbox{
+    width: 1000px;
+}
+.right-box{
+    margin-top: 280px;
+    /* margin-left:  80px; */
+    width: 900px;
+    padding-left: 300px;
+}
+.projects-box h2{
+    font-size: 50px;
+    margin-top: 130px;
+    font-weight: normal;
+}
+.img-3{
+    width: 900px;
+    margin-bottom: 0;
+}
+.twitter{
+    font-size: 45px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.setumei{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: lighter;
+}
+.test{
+    font-size: 45px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+.adda{
+    font-size: 30px;
+}
+.add{
+    margin-bottom: 60px;
+    font-size: 30px;
+    
+}
+#website{
+    text-decoration: none;
+    padding: 14px 29px;
+    background-color: white;
+    font-size: 28px;
+    color: #777976;
+    border: 1px solid #707070;
+    margin-right: 40px;
+    margin-top: 60px;
+}
+#websiteb{
+    text-decoration: none;
+    padding: 14px 29px;
+    background-color: #A7A9A6;
+    font-size: 28px;
+    color: white;
+    border: 2px solid white;
+    margin-top: 60px;
+}
+.netflix-box{
+    display: flex;
+    justify-content: center;
+}
+.right-boxb{
+    margin-top: 120px;
+    /* margin-left:  80px; */
+    width: 900px;
+    padding-left: 300px;
+}
+.netflix{
+    font-size: 45px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+#websitec{
+    text-decoration: none;
+    padding: 14px 29px;
+    background-color: white;
+    font-size: 28px;
+    color: #000;
+    border: 2px solid #000;
+    margin-right: 40px;
+    margin-top: 60px;
+}
+#websited{
+    text-decoration: none;
+    padding: 14px 29px;
+    background-color: #000;
+    font-size: 28px;
+    color: white;
+    margin-top: 60px;
+}
+.contacts-box{
+    background-color: #2F2F2F;
+    color: white;
+    padding-left: 130px;
+}
+.contacts-box h5{
+    font-size: 50px;
+    padding-top: 170px;
+    font-weight: lighter;
+}
+.imgg{
+    padding-bottom: 30px;
+}
+
+.namber{
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+.namberc{
+    font-size: 30px;
+    margin: 0;
+}
+
+.flex-boxa{
+    display: flex;
+    justify-self: start;
+    padding-bottom: 80px;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+   padding-right: 25px;
+}
+
+footer{
+    text-align: center;
+    background-color: #656363;
+    height: 40px;
+}
+.saigo{
+    margin: initial;
+    color: white;
+    padding-top: 20px;
+}

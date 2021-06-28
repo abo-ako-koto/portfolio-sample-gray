@@ -1,3 +1,4 @@
+/* No CSS *//*# sourceMappingURL=style.css.map */
 @charset "UTF-8";
 body{
     font-family: "Avenir";
@@ -85,15 +86,14 @@ width: 700px;
     font-size: 22px;
 }
 
-.img-pc{
-    float: right;
-    margin-left: 50px;
-    
-}
+
 .in{
 margin-left: 20px;
 }
-
+.img-pc{
+    float: right;
+    margin-left: 50px;
+}
 /* プロジェクトTwitterクローン */
 .projects-box{
     background-color: #A7A9A6;
@@ -241,4 +241,241 @@ footer{
     margin: initial;
     color: white;
     padding-top: 20px;
+}
+
+/* レスポンシブデザイン */
+
+@media screen and (max-width: 767px){
+body{
+    min-width: 100%;
+}
+.item-box{
+    min-width: 100%;
+}
+.top{
+    
+    background-color: transparent;
+    padding: 0;
+}
+.topa{
+    
+    background-color: transparent;
+    padding: 0;
+    color: white;
+}
+.item-box{
+    margin: 0;
+    height: 100%;
+    color: white;
+    display: block;
+    letter-spacing: 4px;
+}
+.name-big{
+    font-size: 70px;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 60px;
+
+}
+ .name-bigb{
+        font-size: 70px;
+        font-weight: bold;
+        line-height: 0.8em;
+        text-align: center;
+ }
+ .name{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+.item-img{
+    text-align: center;
+    margin: 0 auto;
+    width: 380px;
+    height: 380px;
+
+    
+}
+
+.item-img img {
+    width:100%;
+    height:100%;
+}
+.work-box{
+    display: block;
+    text-align: center;
+}
+
+.work-item{
+margin-top: 0px;
+width: 100%;
+
+}
+.about{
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.skill{
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+.introduction{
+    font-size: 10px;
+    margin: 20px;
+}
+.color-gray{
+    color: #303030;
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+/* GitHub、inアイコン */
+.work-item img{
+    width: 34px;
+}
+.in{
+margin-left: 10px;
+}
+/* パソコン画像 */
+.img-pc img{
+    display: none;
+    margin: 0;
+}
+/* プロジェクトTwitterクローン */
+.projects-box{
+    display: block;
+    text-align: center;
+}
+.leftbox{
+    width: 100%;
+}
+.right-box{
+    margin-top: 0;
+    /* margin-left:  80px; */
+    width: 100%;
+    padding-left: 0;
+    padding-bottom: 75px;
+}
+.projects-box h2{
+    font-size: 25px;
+    margin-top: 40px;
+    padding-top: 20px;
+    letter-spacing: 3px;
+}
+.img-3{
+    width: 297px;
+    margin-bottom: 0;
+}
+.twitter{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.setumei{
+    font-size: 13px;
+}
+.test{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.adda{
+    font-size: 15px;
+}
+.add{
+    margin-bottom: 30px;
+    font-size: 15px;
+    
+}
+#website{
+    text-decoration: none;
+    padding: 9px 17px;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+#websiteb{
+    padding: 9px 17px;
+    font-size: 14px;
+    border: 2px solid white;
+    margin-top: 25px;
+}
+/* Netflix部分 */
+.netflix-box{
+    display: block;
+    text-align: center;
+    padding-top: 120px;
+}
+.netflix-box img{
+    width: 297px;
+}
+.right-boxb{
+    margin-top: 40px;
+    width: 100%;
+    padding-left: 0;
+}
+.netflix{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+#websitec{
+    padding: 9px 17px;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+#websited{
+    padding: 9px 17px;
+    font-size: 14px;
+    margin-top: 25px;
+}
+/* コンテンツボックス */
+.contacts-box{
+    padding-left: 0;
+    text-align: center;
+}
+.contacts-box h5{
+    font-size: 25px;
+    padding-top: 16px;
+    margin-top: 48px;
+}
+.imgg{
+    padding-bottom: 25px;
+    width: 18px;
+}
+
+.namber{
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+.namberc{
+    font-size: 15px;
+}
+
+.flex-boxa{
+    padding-left: 35%;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+   padding-right: 10px;
+}
+.icon img{
+    width: 18px;
+}
+
+footer{
+    text-align: center;
+    background-color: #656363;
+    height: 87px;
+}
+.saigo{
+    margin: initial;
+    color: white;
+   text-align: center;
+   padding: 25px 50px;
+}
+
+
+
+
 }
